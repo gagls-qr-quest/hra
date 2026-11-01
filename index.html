@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hra – QR Quest</title>
+  <!-- Spoločný vzhľad všetkých modulov (farby, tlačidlá, karty) -->
+  <link rel="stylesheet" href="https://gagls-qr-quest.github.io/shared/v1/style.css">
+  <!-- Vlastný vzhľad tohto modulu -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="qrq-header">
+    <span class="qrq-logo">QR</span>
+    <h1 id="nazov">QR Quest</h1>
+  </header>
+
+  <main class="qrq-main">
+    <section id="obsah" class="qrq-card" aria-live="polite">
+      <p class="qrq-muted">Načítavam…</p>
+    </section>
+  </main>
+
+  <footer class="qrq-footer">
+    Modul <strong>Hra</strong> · <a href="https://github.com/gagls-qr-quest/hra">zdrojový kód</a>
+  </footer>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

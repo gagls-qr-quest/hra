@@ -1,0 +1,7 @@
+/* Vlastný vzhľad modulu Hra.
+   Spoločné farby a komponenty (qrq-btn, qrq-card, qrq-input …) sú v shared/v1/style.css –
+   použi ich premenné, napr. var(--qrq-blue), aby hra vyzerala rovnako ako mapa a editor. */
+
+#obsah p:first-child {
+  font-size: 1.1rem;
+}
