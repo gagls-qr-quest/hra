@@ -4,7 +4,7 @@
 // Formát dát: https://github.com/gagls-qr-quest/gagls-qr-quest.github.io/blob/main/FORMAT.md
 //
 // Vyskúšaj:  .../hra/                  → úvod questu
-//            .../hra/?s=G6A9WP         → naskenované stanovište (Knižnica v ukážke)
+//            .../hra/?s=G6A9WP         → naskenované stanovište (Skrinky v ukážke)
 //            .../hra/?q=draft          → rozpracovaný quest z editora (neskôr)
 // ------------------------------------------------------------------
 import { loadQuest, getQuestId, getParam } from 'https://gagls-qr-quest.github.io/shared/v1/qrq.js';
