@@ -6,8 +6,7 @@ odpovie, získa body a pokračuje ďalej.
 **Živá verzia:** https://gagls-qr-quest.github.io/hra/ ·
 **ukážkové stanovište:** https://gagls-qr-quest.github.io/hra/?s=G6A9WP
 
-**Autor:** _(doplň meno)_ · **Rola:** Hra · Mentoring TUKE × GAGLS 2026/27
-
+**Autor:** Lukáš · **Rola:** Hra · Mentoring TUKE × GAGLS 2026/27
 ## Čo modul robí
 
 _(Doplň jednou vetou na 2. stretnutí, na konci roka prepíš ako portfólio – pozri nižšie.)_
