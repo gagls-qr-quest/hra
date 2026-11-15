@@ -9,7 +9,7 @@ odpovie, získa body a pokračuje ďalej.
 **Autor:** Lukáš(Discord:_lukeeeeee_.) · **Rola:** Hra · Mentoring TUKE × GAGLS 2026/27
 ## Čo modul robí
 
-_(Doplň jednou vetou na 2. stretnutí, na konci roka prepíš ako portfólio – pozri nižšie.)_
+_(Modul Hra umpžňuje hráČOVI NASKENOVAŤ QR kód stanovišťa, zobraziť si úlohu a interaktívne prechádzať QR questom.)_
 
 ## Ako na ňom pracovať
 
