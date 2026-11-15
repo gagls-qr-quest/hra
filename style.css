@@ -13,7 +13,7 @@
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 .qrq-header {
-  backround-color:var(--qrq-blue, #0284c7);
+  background-color:var(--qrq-blue, #0284c7);
   color: #fff;
   padding: 1rem 1.5 rem;
   display: flex;
