@@ -12,3 +12,12 @@
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
+.qrq-header {
+  backround-color:var(--qrq-blue, #0284c7);
+  color: #fff;
+  padding: 1rem 1.5 rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
