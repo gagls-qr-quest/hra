@@ -38,11 +38,18 @@ async function spusti() {
 
     // TODO (úloha z 3. stretnutia): nájdi stanovište podľa kódu v quest.stations
     //   a zobraz jeho názov a otázku. Pri neznámom kóde zobraz „Tento QR kód nepoznám“.
-    obsah.replaceChildren(
-      odsek(`Naskenovaný kód: ${kod}`),
-      odsek('Tu sa čoskoro zobrazí úloha.', 'qrq-muted'),
-    );
-  } catch (chyba) {
+    const stanociste=quest.stations.find( s => s.code ===kod);
+    if (stanoviste) {
+      obsah.replaceChildren(
+        odsek(stanoviste.title, 'qeq-subtitle'),
+        odsek(stanociste.question));
+    } 
+    else {
+      obsah.replaceChildren(
+        odsek('Tento QR kód nepoznám','qrq-error')
+      );
+    }
+    catch (chyba) {
     obsah.replaceChildren(odsek(chyba.message, 'qrq-error'));
     console.error(chyba);
   }
