@@ -26,8 +26,7 @@ async function spusti() {
 
   try {
     const quest = await loadQuest(questId);
-    nazov.textContent = quest.title;
-
+    nazov.textContent = 'GAGLS v hre';
     if (!kod) {
       obsah.replaceChildren(
         odsek(quest.intro),
